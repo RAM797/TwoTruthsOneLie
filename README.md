@@ -1,6 +1,6 @@
 # 2 Truths 1 Lie Game
 
-A fun, interactive trivia game built with Streamlit that challenges players to distinguish truth from fiction. The game presents three statements where two are true and one is false, pushing players to use their knowledge and intuition to spot the lie.
+A fun, interactive trivia game built using Generative AI and Streamlit that challenges players to distinguish truth from fiction. The game presents three statements where two are true and one is false, pushing players to use their knowledge and intuition to spot the lie.
 
 ## Features
 
@@ -9,9 +9,8 @@ The game incorporates several engaging elements to create an entertaining learni
 - Each round presents three carefully crafted statements
 - Real-time feedback when players make their selection
 - Detailed explanations for all statements after each guess
-- Asynchronous fact generation for smooth gameplay
+- Concurrent fact generation for smooth gameplay
 - Celebratory animations for correct answers
-- Session state management to maintain game progress
 
 ## Technical Implementation
 
@@ -20,7 +19,6 @@ The application uses a sophisticated architecture combining several Python techn
 - Streamlit for the interactive web interface
 - LangChain for structured prompt management
 - GPT-4 for generating creative and educational content
-- Threading for background fact generation
 - Concurrent futures for managing asynchronous operations
 
 ## Setup and Installation
